@@ -1,0 +1,42 @@
+body {
+  background: #060f01d4;
+}
+.stop-watch {
+  width: 90%;
+  max-width: 600px;
+  background-image: linear-gradient(#d6f1c34f, #17330459);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+  margin: 200px auto 0;
+  box-shadow: 0 10px 10pc;
+  border-radius: 20px;
+}
+.stop-watch h1 {
+  margin-top: 60px;
+  font-size: 70px;
+  font-weight: 300;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btns img {
+  width: 20%;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+.btns img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 0.75rem rgb(240, 235, 236));
+}
+
+.btns img :nth-child(2) {
+  width: 90%;
+  margin: 0 20px;
+  cursor: pointer;
+}
